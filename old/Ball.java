@@ -5,7 +5,7 @@ public class Ball {
 	private String smooth = "Smooth" ;
 	private String round =  "Round";
 	private double size = 5;
-	
+	private String desc;
 	Ball()
 	{	
 	}
@@ -18,11 +18,15 @@ public class Ball {
 	{
 		size = number;
 	}
-	private String Description()
+	public void setDescription()
 	{
-		String desc;
+		
 		desc =  smooth + round;
-		return desc;
+		
 	}
 
+	public String toString()
+	{
+		return desc;
+	}
 }
