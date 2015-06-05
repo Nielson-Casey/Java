@@ -28,6 +28,12 @@ public class month {
 		tv1.setVolume(3);
 		
 		System.out.println(tv1.toString());
+		Stack stacker = new Stack();
+		
+		for(int i = 0; i < 10; i++)
+			stacker.push(i);
+		while(!stacker.empty())
+		System.out.println(stacker.pop()+" ");
 	}
 
 }
