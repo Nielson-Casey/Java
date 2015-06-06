@@ -12,7 +12,7 @@ public class Stack {
 		}
 		public Stack(int capacity)
 		{
-			
+			elements = new int[capacity];
 		}
 		
 		public boolean empty()

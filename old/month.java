@@ -29,11 +29,15 @@ public class month {
 		
 		System.out.println(tv1.toString());
 		Stack stacker = new Stack();
+
 		
 		for(int i = 0; i < 10; i++)
 			stacker.push(i);
 		while(!stacker.empty())
 		System.out.println(stacker.pop()+" ");
+		
+		System.out.println(BigBall.toString());
+		System.out.println("Finished");
 	}
 
 }
