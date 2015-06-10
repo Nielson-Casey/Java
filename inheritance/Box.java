@@ -10,6 +10,11 @@ public class Box {
 		//circle1.setRadius(10);
 		circle1.printCircle();
 		
+		Rectangle cube = new Rectangle(2, 4);
+		
+		
+		System.out.println("this is the " + cube.toString());
+		
 		System.out.println("Finished");
 	}
 
