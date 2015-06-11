@@ -36,6 +36,8 @@ public class month {
 		while(!stacker.empty())
 		System.out.println(stacker.pop()+" ");
 		
+		
+		
 		System.out.println(BigBall.toString());
 		System.out.println("Finished");
 	}
