@@ -22,7 +22,7 @@ public class javaGUI extends JFrame{
 		ImageIcon img = new ImageIcon("C:\\Users\\computer\\Desktop\\luna.png");
 		
 		
-		//BorderLayout border = new BorderLayout(5,10);
+		//BorderLayout border  = new BorderLayout(5,10);
 		
 		
 		JPanel pnlinput = new JPanel();
