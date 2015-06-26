@@ -1,7 +1,7 @@
 package house;
 
 import java.awt.BorderLayout;
-import java.awt.Component;
+//import java.awt.Component;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -10,6 +10,11 @@ import javax.swing.JPanel;
 
 
 public class javaGUI extends JFrame{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public static void main(String[] args) {
 		

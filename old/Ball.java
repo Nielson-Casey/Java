@@ -6,6 +6,11 @@ public class Ball {
 	private String round =  "Round";
 	private double size = 5;
 	private String desc;
+	
+	
+	
+	
+	
 	Ball()
 	{	
 	}
@@ -22,6 +27,11 @@ public class Ball {
 	{
 		
 		desc =  smooth + round;
+		
+	}
+	public void size(double size)
+	{
+		size = this.size;
 		
 	}
 

@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 public class month {
 
 	public static void main(String[] args) {
-		String output;
+		//String output;
 		Ball BigBall = new Ball(5);
 		JFrame frame1 = new JFrame();
 		frame1.setTitle("Welcome to Ship!");
@@ -15,7 +15,7 @@ public class month {
 		frame1.setLocation(200, 100);
 		frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		JComboBox box = new JComboBox(new String[]{"Casey","Connolly","Nielson"});
+		JComboBox<String> box = new JComboBox<String>(new String[]{"Casey","Connolly","Nielson"});
 		JPanel panel = new JPanel();
 		panel.add(box);
 		frame1.add(panel);

@@ -1,16 +1,20 @@
 package sandboxPackage;
 
+//import java.awt.Frame;
 import java.awt.GridLayout;
 
-import javax.swing.BorderFactory;
+
+//import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
 
+@SuppressWarnings("serial")
 public class Ship extends JFrame {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args){
 		try {
 			// Set the GUI look and feel to the same as the system.
@@ -18,18 +22,27 @@ public class Ship extends JFrame {
 			UIManager.setLookAndFeel(laf);
 		}
 		catch (Exception ex) { /* Do nothing */ }
+		
 		Ship frame = new Ship();
 		
 	}
-	
+
+
+	@SuppressWarnings("unused")
 	private final double[] numbers = {1,2,3,4,5}; 
+	@SuppressWarnings("unused")
 	private final String[] letters = {"one","two","three","four","five"};
 	private JTextField first;
 	private JTextField second;
-    private JTextField third;
+    @SuppressWarnings("unused")
+	private JTextField third;
+    
+    
     
 	public Ship()
 	{
+		
+		
 		
 		JLabel lblFirst = new JLabel ("FIRST");
 		first = new JTextField(5);	
