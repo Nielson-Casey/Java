@@ -11,9 +11,7 @@ import javax.swing.JPanel;
 
 public class javaGUI extends JFrame{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 
 	public static void main(String[] args) {
@@ -34,7 +32,7 @@ public class javaGUI extends JFrame{
 
 		pnlinput.setLayout(new BorderLayout(3, 2));
 		
-		JFrame frame = new JFrame("My Window");
+		JFrame frame = new JFrame("Asteroids");
 		
 		
 		
